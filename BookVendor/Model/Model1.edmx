@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Book">
+          <Key>
+            <PropertyRef Name="BookID" />
+          </Key>
+          <Property Name="BookID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GenreID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Description" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Stock" Type="int" Nullable="false" />
+          <Property Name="Price" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Cart">
+          <Key>
+            <PropertyRef Name="UserID" />
+            <PropertyRef Name="BookID" />
+          </Key>
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="BookID" Type="int" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DetailTransaction">
+          <Key>
+            <PropertyRef Name="TransactionID" />
+            <PropertyRef Name="BookID" />
+          </Key>
+          <Property Name="TransactionID" Type="int" Nullable="false" />
+          <Property Name="BookID" Type="int" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Genre">
+          <Key>
+            <PropertyRef Name="GenreID" />
+          </Key>
+          <Property Name="GenreID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GenreName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="HeaderTransaction">
+          <Key>
+            <PropertyRef Name="TransactionID" />
+          </Key>
+          <Property Name="TransactionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="Date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="RoleID" />
+          </Key>
+          <Property Name="RoleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoleName" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoleID" Type="int" Nullable="false" />
+          <Property Name="Username" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Gender" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Adress" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="Banned" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Book__GenreID__31EC6D26">
+          <End Role="Genre" Type="Self.Genre" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Book" Type="Self.Book" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Genre">
+              <PropertyRef Name="GenreID" />
+            </Principal>
+            <Dependent Role="Book">
+              <PropertyRef Name="GenreID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cart__BookID__4AB81AF0">
+          <End Role="Book" Type="Self.Book" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Book">
+              <PropertyRef Name="BookID" />
+            </Principal>
+            <Dependent Role="Cart">
+              <PropertyRef Name="BookID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cart__UserID__49C3F6B7">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Cart">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetailTra__BookI__440B1D61">
+          <End Role="Book" Type="Self.Book" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DetailTransaction" Type="Self.DetailTransaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Book">
+              <PropertyRef Name="BookID" />
+            </Principal>
+            <Dependent Role="DetailTransaction">
+              <PropertyRef Name="BookID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetailTra__Trans__4316F928">
+          <End Role="HeaderTransaction" Type="Self.HeaderTransaction" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DetailTransaction" Type="Self.DetailTransaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HeaderTransaction">
+              <PropertyRef Name="TransactionID" />
+            </Principal>
+            <Dependent Role="DetailTransaction">
+              <PropertyRef Name="TransactionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__HeaderTra__UserI__2B3F6F97">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="HeaderTransaction" Type="Self.HeaderTransaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="HeaderTransaction">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__User__RoleID__2A4B4B5E">
+          <End Role="Role" Type="Self.Role" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="RoleID" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="RoleID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DatabaseModelStoreContainer">
+          <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cart" EntityType="Self.Cart" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DetailTransaction" EntityType="Self.DetailTransaction" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Genre" EntityType="Self.Genre" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="HeaderTransaction" EntityType="Self.HeaderTransaction" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Book__GenreID__31EC6D26" Association="Self.FK__Book__GenreID__31EC6D26">
+            <End Role="Genre" EntitySet="Genre" />
+            <End Role="Book" EntitySet="Book" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cart__BookID__4AB81AF0" Association="Self.FK__Cart__BookID__4AB81AF0">
+            <End Role="Book" EntitySet="Book" />
+            <End Role="Cart" EntitySet="Cart" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cart__UserID__49C3F6B7" Association="Self.FK__Cart__UserID__49C3F6B7">
+            <End Role="User" EntitySet="User" />
+            <End Role="Cart" EntitySet="Cart" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetailTra__BookI__440B1D61" Association="Self.FK__DetailTra__BookI__440B1D61">
+            <End Role="Book" EntitySet="Book" />
+            <End Role="DetailTransaction" EntitySet="DetailTransaction" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetailTra__Trans__4316F928" Association="Self.FK__DetailTra__Trans__4316F928">
+            <End Role="HeaderTransaction" EntitySet="HeaderTransaction" />
+            <End Role="DetailTransaction" EntitySet="DetailTransaction" />
+          </AssociationSet>
+          <AssociationSet Name="FK__HeaderTra__UserI__2B3F6F97" Association="Self.FK__HeaderTra__UserI__2B3F6F97">
+            <End Role="User" EntitySet="User" />
+            <End Role="HeaderTransaction" EntitySet="HeaderTransaction" />
+          </AssociationSet>
+          <AssociationSet Name="FK__User__RoleID__2A4B4B5E" Association="Self.FK__User__RoleID__2A4B4B5E">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Book">
+          <Key>
+            <PropertyRef Name="BookID" />
+          </Key>
+          <Property Name="BookID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GenreID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Stock" Type="Int32" Nullable="false" />
+          <Property Name="Price" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Genre" Relationship="Self.FK__Book__GenreID__31EC6D26" FromRole="Book" ToRole="Genre" />
+          <NavigationProperty Name="DetailTransactions" Relationship="Self.FK__DetailTra__BookI__440B1D61" FromRole="Book" ToRole="DetailTransaction" />
+          <NavigationProperty Name="Carts" Relationship="DatabaseModel.FK__Cart__BookID__4AB81AF0" FromRole="Book" ToRole="Cart" />
+        </EntityType>
+        <EntityType Name="DetailTransaction">
+          <Key>
+            <PropertyRef Name="TransactionID" />
+            <PropertyRef Name="BookID" />
+          </Key>
+          <Property Name="TransactionID" Type="Int32" Nullable="false" />
+          <Property Name="BookID" Type="Int32" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Book" Relationship="Self.FK__DetailTra__BookI__440B1D61" FromRole="DetailTransaction" ToRole="Book" />
+          <NavigationProperty Name="HeaderTransaction" Relationship="Self.FK__DetailTra__Trans__4316F928" FromRole="DetailTransaction" ToRole="HeaderTransaction" />
+        </EntityType>
+        <EntityType Name="Genre">
+          <Key>
+            <PropertyRef Name="GenreID" />
+          </Key>
+          <Property Name="GenreID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GenreName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Books" Relationship="Self.FK__Book__GenreID__31EC6D26" FromRole="Genre" ToRole="Book" />
+        </EntityType>
+        <EntityType Name="HeaderTransaction">
+          <Key>
+            <PropertyRef Name="TransactionID" />
+          </Key>
+          <Property Name="TransactionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="DetailTransactions" Relationship="Self.FK__DetailTra__Trans__4316F928" FromRole="HeaderTransaction" ToRole="DetailTransaction" />
+          <NavigationProperty Name="User" Relationship="Self.FK__HeaderTra__UserI__2B3F6F97" FromRole="HeaderTransaction" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="RoleID" />
+          </Key>
+          <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RoleName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Users" Relationship="Self.FK__User__RoleID__2A4B4B5E" FromRole="Role" ToRole="User" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RoleID" Type="Int32" Nullable="false" />
+          <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Adress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Banned" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="HeaderTransactions" Relationship="Self.FK__HeaderTra__UserI__2B3F6F97" FromRole="User" ToRole="HeaderTransaction" />
+          <NavigationProperty Name="Role" Relationship="Self.FK__User__RoleID__2A4B4B5E" FromRole="User" ToRole="Role" />
+          <NavigationProperty Name="Carts" Relationship="DatabaseModel.FK__Cart__UserID__49C3F6B7" FromRole="User" ToRole="Cart" />
+        </EntityType>
+        <Association Name="FK__Book__GenreID__31EC6D26">
+          <End Role="Genre" Type="Self.Genre" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Book" Type="Self.Book" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Genre">
+              <PropertyRef Name="GenreID" />
+            </Principal>
+            <Dependent Role="Book">
+              <PropertyRef Name="GenreID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetailTra__BookI__440B1D61">
+          <End Role="Book" Type="Self.Book" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DetailTransaction" Type="Self.DetailTransaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Book">
+              <PropertyRef Name="BookID" />
+            </Principal>
+            <Dependent Role="DetailTransaction">
+              <PropertyRef Name="BookID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetailTra__Trans__4316F928">
+          <End Role="HeaderTransaction" Type="Self.HeaderTransaction" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DetailTransaction" Type="Self.DetailTransaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HeaderTransaction">
+              <PropertyRef Name="TransactionID" />
+            </Principal>
+            <Dependent Role="DetailTransaction">
+              <PropertyRef Name="TransactionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__HeaderTra__UserI__2B3F6F97">
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="HeaderTransaction" Type="Self.HeaderTransaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="HeaderTransaction">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__User__RoleID__2A4B4B5E">
+          <End Role="Role" Type="Self.Role" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="RoleID" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="RoleID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DatabaseEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Books" EntityType="Self.Book" />
+          <EntitySet Name="DetailTransactions" EntityType="Self.DetailTransaction" />
+          <EntitySet Name="Genres" EntityType="Self.Genre" />
+          <EntitySet Name="HeaderTransactions" EntityType="Self.HeaderTransaction" />
+          <EntitySet Name="Roles" EntityType="Self.Role" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <AssociationSet Name="FK__Book__GenreID__31EC6D26" Association="Self.FK__Book__GenreID__31EC6D26">
+            <End Role="Genre" EntitySet="Genres" />
+            <End Role="Book" EntitySet="Books" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetailTra__BookI__440B1D61" Association="Self.FK__DetailTra__BookI__440B1D61">
+            <End Role="Book" EntitySet="Books" />
+            <End Role="DetailTransaction" EntitySet="DetailTransactions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetailTra__Trans__4316F928" Association="Self.FK__DetailTra__Trans__4316F928">
+            <End Role="HeaderTransaction" EntitySet="HeaderTransactions" />
+            <End Role="DetailTransaction" EntitySet="DetailTransactions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__HeaderTra__UserI__2B3F6F97" Association="Self.FK__HeaderTra__UserI__2B3F6F97">
+            <End Role="User" EntitySet="Users" />
+            <End Role="HeaderTransaction" EntitySet="HeaderTransactions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__User__RoleID__2A4B4B5E" Association="Self.FK__User__RoleID__2A4B4B5E">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <EntitySet Name="Carts" EntityType="DatabaseModel.Cart" />
+          <AssociationSet Name="FK__Cart__BookID__4AB81AF0" Association="DatabaseModel.FK__Cart__BookID__4AB81AF0">
+            <End Role="Book" EntitySet="Books" />
+            <End Role="Cart" EntitySet="Carts" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cart__UserID__49C3F6B7" Association="DatabaseModel.FK__Cart__UserID__49C3F6B7">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Cart" EntitySet="Carts" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Cart">
+          <Key>
+            <PropertyRef Name="UserID" />
+            <PropertyRef Name="BookID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="BookID" Type="Int32" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Book" Relationship="DatabaseModel.FK__Cart__BookID__4AB81AF0" FromRole="Cart" ToRole="Book" />
+          <NavigationProperty Name="User" Relationship="DatabaseModel.FK__Cart__UserID__49C3F6B7" FromRole="Cart" ToRole="User" />
+        </EntityType>
+        <Association Name="FK__Cart__BookID__4AB81AF0">
+          <End Type="DatabaseModel.Book" Role="Book" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="DatabaseModel.Cart" Role="Cart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Book">
+              <PropertyRef Name="BookID" />
+            </Principal>
+            <Dependent Role="Cart">
+              <PropertyRef Name="BookID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cart__UserID__49C3F6B7">
+          <End Type="DatabaseModel.User" Role="User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="DatabaseModel.Cart" Role="Cart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Cart">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities2">
+          <EntitySetMapping Name="Books">
+            <EntityTypeMapping TypeName="DatabaseModel.Book">
+              <MappingFragment StoreEntitySet="Book">
+                <ScalarProperty Name="BookID" ColumnName="BookID" />
+                <ScalarProperty Name="GenreID" ColumnName="GenreID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Stock" ColumnName="Stock" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DetailTransactions">
+            <EntityTypeMapping TypeName="DatabaseModel.DetailTransaction">
+              <MappingFragment StoreEntitySet="DetailTransaction">
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="BookID" ColumnName="BookID" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Genres">
+            <EntityTypeMapping TypeName="DatabaseModel.Genre">
+              <MappingFragment StoreEntitySet="Genre">
+                <ScalarProperty Name="GenreID" ColumnName="GenreID" />
+                <ScalarProperty Name="GenreName" ColumnName="GenreName" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HeaderTransactions">
+            <EntityTypeMapping TypeName="DatabaseModel.HeaderTransaction">
+              <MappingFragment StoreEntitySet="HeaderTransaction">
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="DatabaseModel.Role">
+              <MappingFragment StoreEntitySet="Role">
+                <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+                <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="DatabaseModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="Adress" ColumnName="Adress" />
+                <ScalarProperty Name="Banned" ColumnName="Banned" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Carts">
+            <EntityTypeMapping TypeName="DatabaseModel.Cart">
+              <MappingFragment StoreEntitySet="Cart">
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="BookID" ColumnName="BookID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

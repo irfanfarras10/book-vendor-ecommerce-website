@@ -1,0 +1,182 @@
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\ApplicationInsights.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\csc.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\vbc.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\VBCSCompiler.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\BookVendor.dll.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\BookVendor.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\BookVendor.pdb
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\EntityFramework.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\EntityFramework.SqlServer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.Web.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\EntityFramework.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\EntityFramework.SqlServer.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.Web.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\obj\Debug\BookVendor.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\obj\Debug\BookVendor.pdb
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\BookVendor\BookVendor\obj\Debug\BooKVendor.csprojResolveAssemblyReference.cache
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\ApplicationInsights.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\csc.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\vbc.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\VBCSCompiler.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\BookVendor.dll.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\BookVendor.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\BookVendor.pdb
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\EntityFramework.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\EntityFramework.SqlServer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.Web.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\EntityFramework.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\EntityFramework.SqlServer.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.Web.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\obj\Debug\BooKVendor.csprojResolveAssemblyReference.cache
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\obj\Debug\BookVendor.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor\BookVendor\BookVendor\obj\Debug\BookVendor.pdb
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\ApplicationInsights.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\csc.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\vbc.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\VBCSCompiler.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\BookVendor.dll.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\BookVendor.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\BookVendor.pdb
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.Shared.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.Web.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\EntityFramework.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\EntityFramework.SqlServer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.Web.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\stdole.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\EntityFramework.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\EntityFramework.SqlServer.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.Web.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\obj\Debug\BooKVendor.csprojResolveAssemblyReference.cache
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\obj\Debug\BookVendor.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\2201799341 - Copy webvendor - Copy (2)\BookVendor\BookVendor\obj\Debug\BookVendor.pdb
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\ApplicationInsights.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\csc.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\vbc.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\VBCSCompiler.exe
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\BookVendor.dll.config
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\BookVendor.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\BookVendor.pdb
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.Shared.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.Web.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\EntityFramework.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\EntityFramework.SqlServer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.Web.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\stdole.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\EntityFramework.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\EntityFramework.SqlServer.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.Web.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\obj\Debug\BooKVendor.csprojResolveAssemblyReference.cache
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\obj\Debug\BookVendor.dll
+C:\Users\Adrian Arcadius V\Documents\Visual Studio 2015\Projects\ProjectPSD\BookVendor\BookVendor\obj\Debug\BookVendor.pdb

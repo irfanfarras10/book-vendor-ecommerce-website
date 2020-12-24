@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="40052ce5473344bba2400daa46ffccdc" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="DatabaseModel.Book" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.DetailTransaction" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Genre" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.HeaderTransaction" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Role" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.User" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK__Book__GenreID__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__DetailTra__BookI__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__DetailTra__Trans__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__HeaderTra__UserI__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__User__RoleID__2A4B4B5E" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DatabaseModel.Cart" Width="1.5" PointX="7.5" PointY="4.5" />
+        <AssociationConnector Association="DatabaseModel.FK__Cart__BookID__4AB81AF0" />
+        <AssociationConnector Association="DatabaseModel.FK__Cart__UserID__49C3F6B7" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

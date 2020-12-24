@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BookVendor.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>BooKVendor</title>
+    <link href="Asset/bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        header{
+            width: 100%;
+        }
+
+        .nav-item{
+            color: white;
+            padding: 10px;
+        }
+        .nav-item:hover{
+            color:white;
+            text-decoration: none;
+        }
+        .h1{
+            font-size: 30px;
+        }
+        .p{
+            margin-top:8px;
+        }
+        footer{
+            margin-top: 50px;
+        }
+        .main{
+            margin-top: 50px;
+        }
+        .mar{
+            margin-bottom: 50px;
+        }
+        .index{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" class="container-fluid" runat="server">
+
+    <div class="row">
+       <div class="container-fluid bg-dark d-flex align-items-center">
+         <div class="container">
+           <nav class="nav navbar-dark bg-dark">
+               <p class="nav-item h1">BooKVendor</p>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink7" runat="server" NavigateUrl="View/HomePage.aspx">Home</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink1" runat="server" NavigateUrl="View/Book/ViewBook.aspx">View Books</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink2" runat="server" NavigateUrl="View/User/ViewProfile.aspx">View Profile</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink3" runat="server" NavigateUrl="View/Transaction1/CartPage.aspx">Cart</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink14" runat="server" NavigateUrl="View/Transaction1/TransactionReport.aspx">View Transaction Report</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink4" runat="server" NavigateUrl="View/Transaction1/ViewTransactionHistory.aspx">View Transaction History</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink5" runat="server" NavigateUrl="View/User/Login.aspx">Login</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink6" runat="server" NavigateUrl="View/User/Register.aspx">Register</asp:HyperLink>
+               <asp:Button Class="btn btn-danger" ID="UserLogout" Text="Logout" runat="server" OnClick="UserLogout_Click"/>
+               <asp:Label Class="nav-item p" Text="" ID="Username" runat="server" />
+           </nav>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+       <div class="container-fluid bg-dark d-flex align-items-center">
+         <div class="container">
+           <nav class="nav navbar-dark bg-dark">
+               <asp:HyperLink Class="nav-item p" ID="HyperLink9" runat="server" NavigateUrl="View/Book/UpdateBook.aspx">Update Book</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink8" runat="server" NavigateUrl="View/Book/InsertBook.aspx">Insert Book</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink10" runat="server" NavigateUrl="View/Book/InsertGenre.aspx">Insert Genre</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink11" runat="server" NavigateUrl="View/Book/UpdateGenre.aspx">View Genre</asp:HyperLink>
+               <asp:HyperLink Class="nav-item p" ID="HyperLink13" runat="server" NavigateUrl="View/User/ViewUser.aspx">View User</asp:HyperLink>
+           </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+     <div class="container main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+     </div>
+    </div>
+
+    <footer>
+    </footer>
+    </form>
+</body>
+<script src="Asset/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+</html>
